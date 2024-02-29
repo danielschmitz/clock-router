@@ -6,11 +6,11 @@ export default function Home() {
   return (
       <main className="m-10">
         
-        Hello World! <br/><br/> its {now.toDateString()} {now.toTimeString()}
+        Page 2! <br/><br/> its {now.toDateString()} {now.toTimeString()}
 
         <br/><br/><br/>
 
-        <Link href="/page2">Page 2</Link>
+        <Link href="/">Page 1</Link>
 
       
       </main>
