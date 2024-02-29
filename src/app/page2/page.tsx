@@ -1,9 +1,11 @@
 import Link from "next/link";
 
-export const dynamic = 'force-dynamic'
-
-export default function Home() {
+async function getData() {
   const now = new Date();
+  return now;
+}
+export default async function Home() {
+  const now = await getData();
   return (
       <main className="m-10">
         
