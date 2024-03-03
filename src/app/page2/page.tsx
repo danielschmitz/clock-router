@@ -1,3 +1,4 @@
+import Clock from "@/components/clock";
 import Link from "next/link";
 
 export const dynamic = 'force-dynamic'
@@ -13,7 +14,7 @@ export default async function Home() {
   return (
       <main className="m-10">
         
-        Page 2! <br/><br/> its {now.toDateString()} {now.toTimeString()}
+        Page 2! <br/><br/> <Clock></Clock>
 
         <br/><br/><br/>
 
